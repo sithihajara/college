@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table {
+            width: 100%;
+            height: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: yellow;
+        }
+        .title {
+            background-color: yellow;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .image-cell img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+    <title>My Day</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2" class="title">My Day</th>
+        </tr>
+        <tr>
+            <td>
+                <ol>
+                    <li>wake up early
+                        <ul>
+                            <li>5AM</li>
+                            <li>walk</li>
+                            <li>jog</li>
+                        </ul>
+                    </li>
+                    <li>breakfast
+                        <ul>
+                            <li>8AM</li>
+                            <li>eggs</li>
+                            <li>coffee</li>
+                        </ul>
+                    </li>
+                    <li>go to Saveetha
+                        <ul>
+                            <li>8AM</li>
+                            <li>attend classes</li>
+                            <li>to be continued</li>
+                        </ul>
+                    </li>
+                </ol>
+            </td>
+            <td rowspan="3">
+                <table>
+                    <tr>
+                        <th colspan="2">Things to watch</th>
+                    </tr>
+                    <tr>
+                        <td class="image-cell"><img src="im1.jpg" alt="walking"></td>
+                        <td class="image-cell"><img src="im2.jpeg" alt="breakfast"></td>
+                    </tr>
+                    <tr>
+                        <td class="image-cell"><img src="im3.jpg" alt="coffee"></td>
+                        <td class="image-cell"><img src="im4.jpg" alt="classes"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
